@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // Import AOS styles
 import Layout from '../components/Layout';
@@ -11,6 +11,8 @@ import Career from './Career';
 import ContactPage from './ContactPage';
 
 const Page: React.FC = () => {
+  const [loading, setLoading] = useState(true);
+
   useEffect(() => {
     AOS.init({
       duration: 2500,
@@ -18,6 +20,13 @@ const Page: React.FC = () => {
       mirror: true,
       offset: 200, // 이 값을 높여서 섹션이 더 늦게 나타나도록 설정
     });
+
+    // Set a timeout to simulate loading time
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 2000); // Adjust this time as needed
+
+    return () => clearTimeout(timer);
   }, []);
 
   return (

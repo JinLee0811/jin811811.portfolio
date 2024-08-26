@@ -119,7 +119,7 @@ const Modal: React.FC<ModalProps> = ({ project, onClose }) => {
             }}>
             <FaGithub />
           </a>
-          {project.deployUrl && (
+          {project.deployUrl && project.deployUrl.trim() !== '' && (
             <a
               href={project.deployUrl}
               className='text-black bg-white hover:bg-lightGray rounded-full p-2 mt-2'

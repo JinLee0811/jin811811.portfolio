@@ -35,7 +35,7 @@ const CareerDetailsModal: React.FC<CareerDetailsModalProps> = ({
         </div>
         <p className='text-superLightGray'>{position}</p>
         <p className='text-gray-500 mb-4'>{date}</p>
-        <ul className='list-disc list-inside space-y-2 text-Dgray'>
+        <ul className='list-disc list-outside space-y-2 text-white pl-5'>
           {responsibilities.map((item, index) => (
             <li key={index}>{item}</li>
           ))}

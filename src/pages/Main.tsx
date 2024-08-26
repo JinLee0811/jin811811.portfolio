@@ -1,9 +1,12 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import Typed from 'typed.js';
 import { FaLinkedin, FaGithub, FaFileAlt } from 'react-icons/fa';
 
 const Hero: React.FC = () => {
   const typedRef = useRef<HTMLSpanElement>(null);
+  const [loading, setLoading] = useState(true);
+  const [imagesLoaded, setImagesLoaded] = useState(0);
+  const totalImages = 6; // 총 로드할 이미지의 수
 
   useEffect(() => {
     const options = {
@@ -26,26 +29,37 @@ const Hero: React.FC = () => {
     }
   }, []);
 
+  const handleImageLoad = () => {
+    setImagesLoaded((prev) => prev + 1);
+  };
+
+  useEffect(() => {
+    if (imagesLoaded === totalImages) {
+      setLoading(false);
+    }
+  }, [imagesLoaded]);
+
   return (
     <main id='main' className='mt-30 mb-15'>
       {/* Hero Section */}
       <div
         id='main'
-        className='section relative z-0 py-16 md:pt-32 bg-mainBlack'>
+        className='section relative z-0 pt-16 md:pt-32 lg:pt-40 bg-mainBlack'>
         <div className='container xl:max-w-6xl mx-auto px-4'>
           <div className='flex flex-wrap flex-row -mx-4 justify-center'>
             {/* Image Section */}
-            <div className='flex-shrink max-w-full px-4 sm:px-12 lg:px-30 w-full sm:w-9/12 lg:w-1/2 self-center order-2 sm:order-1 lg:order-1'>
-              <div className='w-29.1 h-29.1 overflow-hidden rounded-3xl transition-transform duration-300 ease-in-out transform hover:scale-110'>
+            <div className='flex-shrink max-w-full px-4 sm:p-12 w-full sm:w-9/12 lg:w-1/2 self-start'>
+              <div className='overflow-hidden rounded-3xl transition-transform duration-300 ease-in-out transform hover:scale-110 h-64 md:h-80 lg:h-96'>
                 <img
                   src='https://github.com/user-attachments/assets/d859ec3f-18cf-4d42-9ce5-d6736828e6d7'
                   className='w-full h-full object-cover'
                   alt='profile picture'
+                  onLoad={handleImageLoad}
                 />
               </div>
             </div>
             {/* Content Section */}
-            <div className='flex-shrink max-w-full px-4 w-full md:w-9/12 lg:w-1/2 self-center order-2 sm:order-2 lg:order-1'>
+            <div className='flex-shrink max-w-full px-4 w-full md:w-9/12 lg:w-1/2 self-center'>
               <div className='text-center lg:text-left mt-6 lg:mt-0'>
                 <div className='mb-5'>
                   <h1 className='text-4xl leading-normal text-whiteGray font-bold mb-4 mt-10'>
@@ -69,6 +83,7 @@ const Hero: React.FC = () => {
                         src='https://github.com/user-attachments/assets/af275b2e-80f9-4217-ae18-e9182fe11de8'
                         alt='JavaScript'
                         className='w-10 h-10 object-cover transform transition-transform duration-300 ease-in-out hover:scale-110'
+                        onLoad={handleImageLoad}
                       />
                     </div>
                     <div className='col-span-1 flex justify-center'>
@@ -76,6 +91,7 @@ const Hero: React.FC = () => {
                         src='https://github.com/user-attachments/assets/2f861ed4-d44f-4d89-90cf-387161fdc6e8'
                         alt='Python'
                         className='w-10 h-10 object-cover transform transition-transform duration-300 ease-in-out hover:scale-110'
+                        onLoad={handleImageLoad}
                       />
                     </div>
                     <div className='col-span-1 flex justify-center'>
@@ -83,6 +99,7 @@ const Hero: React.FC = () => {
                         src='https://github.com/user-attachments/assets/58504914-3ef8-4693-9d78-6e4a2700800d'
                         alt='React'
                         className='w-10 h-10 object-cover transform transition-transform duration-300 ease-in-out hover:scale-110'
+                        onLoad={handleImageLoad}
                       />
                     </div>
                     <div className='col-span-1 flex justify-center'>
@@ -90,6 +107,7 @@ const Hero: React.FC = () => {
                         src='https://github.com/user-attachments/assets/1a76a7fe-2455-450f-bbe9-12e8f595f62a'
                         alt='Node.js'
                         className='w-10 h-10 object-cover transform transition-transform duration-300 ease-in-out hover:scale-110'
+                        onLoad={handleImageLoad}
                       />
                     </div>
                     <div className='col-span-1 flex justify-center'>
@@ -97,6 +115,7 @@ const Hero: React.FC = () => {
                         src='https://github.com/user-attachments/assets/4b9fa211-829e-4aa7-9f7b-f76bb4f45ca2'
                         alt='Next.js'
                         className='w-10 h-10 object-cover transform transition-transform duration-300 ease-in-out hover:scale-110'
+                        onLoad={handleImageLoad}
                       />
                     </div>
                     <div className='col-span-1 flex justify-center'>
@@ -104,6 +123,7 @@ const Hero: React.FC = () => {
                         src='https://github.com/user-attachments/assets/9aae6f94-5fb3-41ee-83a4-d25797dbf745'
                         alt='Tailwind.css'
                         className='w-10 h-10 object-cover transform transition-transform duration-300 ease-in-out hover:scale-110'
+                        onLoad={handleImageLoad}
                       />
                     </div>
                   </div>

@@ -107,7 +107,7 @@ export const projects: Project[] = [
     imageUrl:
       'https://github.com/user-attachments/assets/dd20bd18-acb9-45a0-8941-4af360bcf073',
     githubUrl: 'https://github.com/JinLee0811/Ai-platform-with-Next-js',
-    deployUrl: 'https://example2.com',
+    deployUrl: '',
     date: '2024-08-16',
     type: 'Single',
     term: 'Aug 2024 ~ Present',
@@ -142,8 +142,8 @@ export const projects: Project[] = [
     contributions: ['Frontend development', 'Design and styling'],
     imageUrl:
       'https://github.com/user-attachments/assets/b3fa343a-7032-45c4-94e2-6de01bc6c3ac',
-    githubUrl: 'https://github.com/example',
-    deployUrl: 'https://example.com',
+    githubUrl: 'https://github.com/JinLee0811/JinLee_Portfolio',
+    deployUrl: 'https://jin-lee-portfolio.vercel.app/',
     date: '2024-08-20',
     type: 'Single',
     term: 'Aug 2024 ~ Present',
@@ -182,7 +182,7 @@ export const projects: Project[] = [
     imageUrl:
       'https://github.com/user-attachments/assets/a7dc333c-4004-467b-b781-672206dfcbcf',
     githubUrl: 'https://github.com/JinLee0811/AiProject',
-    deployUrl: 'https://example.com',
+    deployUrl: '',
     date: '2023-04',
     type: 'Team',
     term: 'April 2023 ~ June 2023',
@@ -271,7 +271,7 @@ export const projects: Project[] = [
     imageUrl:
       'https://github.com/user-attachments/assets/8fd84916-4ca3-4025-a6b6-c7fadf03265b',
     githubUrl: 'https://github.com/JinLee0811/Data_Project',
-    deployUrl: 'https://example.com',
+    deployUrl: '',
     date: '2023-03',
     type: 'Team',
     term: 'March 2023 ~ April 2023',
@@ -326,8 +326,8 @@ export const projects: Project[] = [
     contributions: ['Frontend development', 'Backend development'],
     imageUrl:
       'https://github.com/user-attachments/assets/3bd5e343-de39-4d0c-9326-f527eef0d6c4',
-    githubUrl: 'https://github.com/example',
-    deployUrl: 'https://example.com',
+    githubUrl: 'https://github.com/JinLee0811/Shoppingmall-Web-Service',
+    deployUrl: '',
     date: '2023-01',
     type: 'Team',
     term: 'Jan 2023 ~ Feb 2023',
@@ -363,7 +363,7 @@ export const projects: Project[] = [
       'https://github.com/user-attachments/assets/b47a7f43-787e-4e8e-9806-009d8a37f2d1',
     githubUrl:
       'https://github.com/JinLee0811/UTS_TeamProject_CLIUniApp-and-GUIUniApp_by_Python',
-    deployUrl: 'https://example.com',
+    deployUrl: '',
     date: '2024-03',
     type: 'Team',
     term: 'March 2024 ~ June 2024',
@@ -388,7 +388,7 @@ export const projects: Project[] = [
     imageUrl:
       'https://github.com/user-attachments/assets/99af349b-5f44-4c01-abf4-47f947e24381',
     githubUrl: 'https://github.com/JinLee0811/python_pygame_pj',
-    deployUrl: 'https://example.com',
+    deployUrl: '',
     date: '2024-04',
     type: 'Single',
     term: 'April 2024 ~ April 2024',

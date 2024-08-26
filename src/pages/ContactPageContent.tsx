@@ -46,14 +46,14 @@ const ContactPage: React.FC = () => {
 
       <div className='flex justify-center space-x-8 mb-12'>
         <a
-          href='https://github.com/your-github'
+          href='https://github.com/JinLee0811'
           target='_blank'
           rel='noopener noreferrer'
           className='text-lg font-medium text-gray-800 hover:text-gray-600'>
           GitHub
         </a>
         <a
-          href='https://your-blog.com'
+          href='https://www.linkedin.com/in/jin-lee-72b653272/'
           target='_blank'
           rel='noopener noreferrer'
           className='text-lg font-medium text-gray-800 hover:text-gray-600'>
