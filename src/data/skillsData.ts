@@ -112,9 +112,8 @@ export const skills = [
     type: 'else',
   },
   {
-    title:
-      'https://github.com/JinLee0811/JinLee_Portfolio/blob/main/public/Images/6.ESLint.png?raw=true',
-    icon: '/images/6.ESLint.png',
+    title: 'EsLint',
+    icon: 'https://github.com/JinLee0811/JinLee_Portfolio/blob/main/public/Images/6.ESLint.png?raw=true',
     type: 'else',
   },
   {

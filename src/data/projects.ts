@@ -52,27 +52,33 @@ export const projects: Project[] = [
     term: 'July 2024 ~ Aug 2024',
     screenshots: [
       {
-        imageUrl: '/images/ProjectImage/Netflix_Clone.png',
+        imageUrl:
+          'https://github.com/JinLee0811/JinLee_Portfolio/blob/main/public/Images/ProjectImage/Netflix_Clone.png?raw=true',
         caption: 'Main Page',
       },
       {
-        imageUrl: '/images/Netfilx/Login.png',
+        imageUrl:
+          'https://github.com/JinLee0811/JinLee_Portfolio/blob/main/public/Images/Netfilx/Login.png?raw=true',
         caption: 'Login Page',
       },
       {
-        imageUrl: '/images/Netfilx/User.png',
+        imageUrl:
+          'https://github.com/JinLee0811/JinLee_Portfolio/blob/main/public/Images/Netfilx/User.png?raw=true',
         caption: 'User Selection Page',
       },
       {
-        imageUrl: '/images/Netfilx/VideoList.png',
+        imageUrl:
+          'https://github.com/JinLee0811/JinLee_Portfolio/blob/main/public/Images/Netfilx/VideoList.png?raw=true',
         caption: 'Video List Page',
       },
       {
-        imageUrl: '/images/Netfilx/Modal.png',
+        imageUrl:
+          'https://github.com/JinLee0811/JinLee_Portfolio/blob/main/public/Images/Netfilx/Modal.png?raw=true',
         caption: 'Video Information Modal',
       },
       {
-        imageUrl: '/images/Netfilx/Video.png',
+        imageUrl:
+          'https://github.com/JinLee0811/JinLee_Portfolio/blob/main/public/Images/Netfilx/Video.png?raw=true',
         caption: 'Video Player Page',
       },
     ],
