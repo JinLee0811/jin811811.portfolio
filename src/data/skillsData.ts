@@ -3,28 +3,28 @@ export const skills = [
     title: 'Javascript',
     description:
       'This is a wider card with supporting text below as a natural content.',
-    icon: '/images/js.png',
+    icon: 'https://github.com/JinLee0811/JinLee_Portfolio/blob/main/public/Images/js.png?raw=true',
     type: 'Frontend',
   },
   {
     title: 'Typescript',
     description:
       'This is a wider card with supporting text below as a natural content.',
-    icon: '/images/ts.png',
+    icon: 'https://github.com/JinLee0811/JinLee_Portfolio/blob/main/public/Images/ts.png?raw=true',
     type: 'Frontend',
   },
   {
     title: 'Python',
     description:
       'This is a wider card with supporting text below as a natural content.',
-    icon: '/images/python.jpg',
+    icon: 'https://github.com/JinLee0811/JinLee_Portfolio/blob/main/public/Images/Python.jpg?raw=true',
     type: 'Backend',
   },
   {
     title: 'React',
     description:
       'This is a wider card with supporting text below as a natural content.',
-    icon: '/images/React.png',
+    icon: 'https://github.com/JinLee0811/JinLee_Portfolio/blob/main/public/Images/React.png?raw=true',
 
     type: 'Frontend',
   },
@@ -32,121 +32,129 @@ export const skills = [
     title: 'Next.js',
     description:
       'This is a wider card with supporting text below as a natural content.',
-    icon: '/images/Next.js.png',
+    icon: 'https://github.com/JinLee0811/JinLee_Portfolio/blob/main/public/Images/Next.js.png?raw=true',
+    type: 'Backend',
+  },
+  {
+    title: 'Node.js',
+    description:
+      'This is a wider card with supporting text below as a natural content.',
+    icon: 'https://github.com/JinLee0811/JinLee_Portfolio/blob/main/public/Images/Node.js.png?raw=true',
     type: 'Backend',
   },
   {
     title: 'Tailwind CSS',
     description: 'CSS-in-JS, Styled-component, Tailwind CSS, Bootstrap',
-    icon: '/images/Tailwind CSS.png',
+    icon: 'https://github.com/JinLee0811/JinLee_Portfolio/blob/main/public/Images/Tailwind%20CSS.png?raw=true',
     type: 'Frontend',
   },
   {
     title: 'Styled-component',
     description: 'CSS-in-JS, Styled-component, Tailwind CSS, Bootstrap',
-    icon: '/images/styled-component.png',
+    icon: 'https://github.com/JinLee0811/JinLee_Portfolio/blob/main/public/Images/styled-component.png?raw=true',
     type: 'Frontend',
   },
   {
     title: 'Redux',
     description: 'Styled-component, Tailwind CSS, Bootstrap',
-    icon: '/images/Redux.png',
+    icon: 'https://github.com/JinLee0811/JinLee_Portfolio/blob/main/public/Images/Redux.png?raw=true',
     type: 'Frontend',
   },
   {
     title: 'REST API',
     description:
       'This is a wider card with supporting text below as a natural content.',
-    icon: '/images/api.png',
+    icon: 'https://github.com/JinLee0811/JinLee_Portfolio/blob/main/public/Images/api.png?raw=true',
     type: 'Frontend',
   },
   {
     title: 'SQL',
     description:
       'This is a wider card with supporting text below as a natural content.',
-    icon: '/images/SQL Developer.png',
+    icon: 'https://github.com/JinLee0811/JinLee_Portfolio/blob/main/public/Images/SQL%20Developer.png?raw=true',
     type: 'Backend',
   },
   {
     title: 'AWS',
     description:
       'This is a wider card with supporting text below as a natural content.',
-    icon: '/images/AWS.png',
+    icon: 'https://github.com/JinLee0811/JinLee_Portfolio/blob/main/public/Images/AWS.png?raw=true',
     type: 'Backend',
   },
   {
     title: 'Git',
-    icon: '/images/1.Git.png',
+    icon: 'https://github.com/JinLee0811/JinLee_Portfolio/blob/main/public/Images/1.Git.png?raw=true',
     type: 'else',
   },
   {
     title: 'GitHub',
-    icon: '/images/2.GitHub.png',
+    icon: 'https://github.com/JinLee0811/JinLee_Portfolio/blob/main/public/Images/2.GitHub.png?raw=true',
     type: 'else',
   },
   {
     title: 'GitLab',
-    icon: '/images/3.GitLab.png',
+    icon: 'https://github.com/JinLee0811/JinLee_Portfolio/blob/main/public/Images/3.GitLab.png?raw=true',
     type: 'else',
   },
   {
     title: 'PostgresSQL',
-    icon: '/images/4.PostgresSQL.png',
+    icon: 'https://github.com/JinLee0811/JinLee_Portfolio/blob/main/public/Images/4.PostgresSQL.png?raw=true',
     type: 'Backend',
   },
   {
     title: 'MySQL',
-    icon: '/images/5.MySQL.png',
+    icon: 'https://github.com/JinLee0811/JinLee_Portfolio/blob/main/public/Images/5.MySQL.png?raw=true',
     type: 'else',
   },
   {
     title: 'TensorFlow',
-    icon: '/images/12.TensorFlow.png',
+    icon: 'https://github.com/JinLee0811/JinLee_Portfolio/blob/main/public/Images/12.TensorFlow.png?raw=true',
     type: 'else',
   },
   {
-    title: 'ESLint',
+    title:
+      'https://github.com/JinLee0811/JinLee_Portfolio/blob/main/public/Images/6.ESLint.png?raw=true',
     icon: '/images/6.ESLint.png',
     type: 'else',
   },
   {
     title: 'React Bootstrap',
-    icon: '/images/7.React Bootstrap.png',
+    icon: 'https://github.com/JinLee0811/JinLee_Portfolio/blob/main/public/Images/7.React%20Bootstrap.png?raw=true',
     type: 'else',
   },
   {
     title: 'HTML5',
-    icon: '/images/8.HTML5.png',
+    icon: 'https://github.com/JinLee0811/JinLee_Portfolio/blob/main/public/Images/8.HTML5.png?raw=true',
     type: 'else',
   },
   {
     title: 'CSS3',
-    icon: '/images/9.CSS3.png',
+    icon: 'https://github.com/JinLee0811/JinLee_Portfolio/blob/main/public/Images/9.CSS3.png?raw=true',
     type: 'else',
   },
   {
     title: 'Docker',
-    icon: '/images/14.Docker.png',
+    icon: 'https://github.com/JinLee0811/JinLee_Portfolio/blob/main/public/Images/14.Docker.png?raw=true',
     type: 'else',
   },
   {
     title: 'Figma',
-    icon: '/images/16.Figma.png',
+    icon: 'https://github.com/JinLee0811/JinLee_Portfolio/blob/main/public/Images/16.Figma.png?raw=true',
     type: 'else',
   },
   {
     title: 'Adobe Premiere Pro',
-    icon: '/images/10.Adobe Premiere Pro.png',
+    icon: 'https://github.com/JinLee0811/JinLee_Portfolio/blob/main/public/Images/10.Adobe%20Premiere%20Pro.png?raw=true',
     type: 'else',
   },
   {
     title: 'Adobe Photoshop',
-    icon: '/images/11.Adobe Photoshop.png',
+    icon: 'https://github.com/JinLee0811/JinLee_Portfolio/blob/main/public/Images/11.Adobe%20Photoshop.png?raw=true',
     type: 'else',
   },
   {
     title: 'After Effects',
-    icon: '/images/13.After Effects.png',
+    icon: 'https://github.com/JinLee0811/JinLee_Portfolio/blob/main/public/Images/13.After%20Effects.png?raw=true',
     type: 'else',
   },
   // {
