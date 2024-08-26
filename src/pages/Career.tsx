@@ -8,7 +8,8 @@ const careerData = [
     company: 'Youniv',
     position: 'Producer',
     date: '2020 - 2022',
-    logoUrl: '/images/YounivLogo.png', // Add the path to the company logo
+    logoUrl:
+      'https://github.com/user-attachments/assets/623e0e0e-5faf-45c5-8e5b-810225d7006c', // Add the path to the company logo
     responsibilities: [
       'Produced and edited videos across a wide range of topics and formats for various platforms, contributing to engaging content for the audience and achieving brand objectives',
       'Collaborated in pre-production tasks, including scriptwriting and shot list creation, enhancing project efficiency and content quality',

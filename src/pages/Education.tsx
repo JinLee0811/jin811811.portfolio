@@ -7,19 +7,19 @@ const educationData = [
     school: 'University of Technology, Sydney',
     course: 'Master of Information Technology',
     date: '2024 - 2026',
-    logo: '/images/EducationLogo/UTS.png', // Update this path
+    logo: 'https://github.com/user-attachments/assets/526470ef-f0b9-46c2-9705-237ba60f7941', // Updated path for UTS
   },
   {
     school: 'Elice Diploma',
     course: 'AI Developer Diploma',
     date: '2023 - 2024',
-    logo: '/images/EducationLogo/Elice.png', // Update this path
+    logo: 'https://github.com/user-attachments/assets/1173d02f-1284-4a5a-b152-2e0b4b334e28', // Updated path for Elice
   },
   {
     school: 'Dankook University',
     course: 'Bachelor of Animal Resource Science',
     date: '2013 - 2022',
-    logo: '/images/EducationLogo/DanKook.png', // Update this path
+    logo: 'https://github.com/user-attachments/assets/97d5da02-4b3c-459c-89e7-1cae13a819db', // Updated path for Dankook
   },
 ];
 

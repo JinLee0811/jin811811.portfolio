@@ -44,7 +44,8 @@ export const projects: Project[] = [
       'Integration with MongoDB',
       'API integration',
     ],
-    imageUrl: '/images/ProjectImage/Netflix_Clone.png',
+    imageUrl:
+      'https://github.com/user-attachments/assets/e0127a29-0f66-4afd-bbd5-05926a581177',
     githubUrl: 'https://github.com/JinLee0811/jin-netflix-clone',
     deployUrl: 'https://jin-netflix-clone.vercel.app/',
     date: '2024-08-11',
@@ -53,32 +54,32 @@ export const projects: Project[] = [
     screenshots: [
       {
         imageUrl:
-          'https://github.com/JinLee0811/JinLee_Portfolio/blob/main/public/Images/ProjectImage/Netflix_Clone.png?raw=true',
+          'https://github.com/user-attachments/assets/e0127a29-0f66-4afd-bbd5-05926a581177',
         caption: 'Main Page',
       },
       {
         imageUrl:
-          'https://github.com/JinLee0811/JinLee_Portfolio/blob/main/public/Images/Netfilx/Login.png?raw=true',
+          'https://github.com/user-attachments/assets/bb621d11-45c4-4478-a8fd-080e4ab5977f',
         caption: 'Login Page',
       },
       {
         imageUrl:
-          'https://github.com/JinLee0811/JinLee_Portfolio/blob/main/public/Images/Netfilx/User.png?raw=true',
+          'https://github.com/user-attachments/assets/d6122f4a-0622-49ff-8b8a-565aaa3d702b',
         caption: 'User Selection Page',
       },
       {
         imageUrl:
-          'https://github.com/JinLee0811/JinLee_Portfolio/blob/main/public/Images/Netfilx/VideoList.png?raw=true',
+          'https://github.com/user-attachments/assets/9d3a6586-cc93-4aed-9d84-fc02f8af6ede',
         caption: 'Video List Page',
       },
       {
         imageUrl:
-          'https://github.com/JinLee0811/JinLee_Portfolio/blob/main/public/Images/Netfilx/Modal.png?raw=true',
+          'https://github.com/user-attachments/assets/65a9af34-4b01-4347-83ce-7d256e9f3987',
         caption: 'Video Information Modal',
       },
       {
         imageUrl:
-          'https://github.com/JinLee0811/JinLee_Portfolio/blob/main/public/Images/Netfilx/Video.png?raw=true',
+          'https://github.com/user-attachments/assets/59e3503e-feda-4af9-9db3-fc79001b7f8e',
         caption: 'Video Player Page',
       },
     ],
@@ -103,7 +104,8 @@ export const projects: Project[] = [
       'Backend development',
       'AI model integration',
     ],
-    imageUrl: '/images/ProjectImage/Ai_platform.png',
+    imageUrl:
+      'https://github.com/user-attachments/assets/dd20bd18-acb9-45a0-8941-4af360bcf073',
     githubUrl: 'https://github.com/JinLee0811/Ai-platform-with-Next-js',
     deployUrl: 'https://example2.com',
     date: '2024-08-16',
@@ -111,7 +113,8 @@ export const projects: Project[] = [
     term: 'Aug 2024 ~ Present',
     screenshots: [
       {
-        imageUrl: '/images/ProjectImage/Ai_platform.png',
+        imageUrl:
+          'https://github.com/user-attachments/assets/dd20bd18-acb9-45a0-8941-4af360bcf073',
         caption: 'Dashboard Page',
       },
     ],
@@ -137,7 +140,8 @@ export const projects: Project[] = [
     ],
     category: ['Web Development', 'Portfolio'],
     contributions: ['Frontend development', 'Design and styling'],
-    imageUrl: '/images/ProjectImage/portfolio.png',
+    imageUrl:
+      'https://github.com/user-attachments/assets/b3fa343a-7032-45c4-94e2-6de01bc6c3ac',
     githubUrl: 'https://github.com/example',
     deployUrl: 'https://example.com',
     date: '2024-08-20',
@@ -145,7 +149,8 @@ export const projects: Project[] = [
     term: 'Aug 2024 ~ Present',
     screenshots: [
       {
-        imageUrl: '/images/ProjectImage/portfolio.png',
+        imageUrl:
+          'https://github.com/user-attachments/assets/b3fa343a-7032-45c4-94e2-6de01bc6c3ac',
         caption: 'Main Page',
       },
     ],
@@ -174,7 +179,8 @@ export const projects: Project[] = [
       'Frontend development',
       'Data analysis',
     ],
-    imageUrl: '/images/ProjectImage/AiProject.png',
+    imageUrl:
+      'https://github.com/user-attachments/assets/a7dc333c-4004-467b-b781-672206dfcbcf',
     githubUrl: 'https://github.com/JinLee0811/AiProject',
     deployUrl: 'https://example.com',
     date: '2023-04',
@@ -182,36 +188,49 @@ export const projects: Project[] = [
     term: 'April 2023 ~ June 2023',
     screenshots: [
       {
-        imageUrl: '/images/CropProject/2.main.gif',
+        imageUrl:
+          'https://github.com/JinLee0811/JinLee_Portfolio/blob/main/src/assets/Images/CropProject/2.main.gif?raw=true',
         caption: 'Main Page',
       },
       {
-        imageUrl: '/images/CropProject/1. login.gif',
+        imageUrl:
+          'https://github.com/JinLee0811/JinLee_Portfolio/blob/main/src/assets/Images/CropProject/1.%20login.gif?raw=true',
         caption: 'Login Page',
       },
       {
-        imageUrl: '/images/CropProject/3.User.gif',
+        imageUrl:
+          'https://github.com/JinLee0811/JinLee_Portfolio/blob/main/src/assets/Images/CropProject/3.User.gif?raw=true',
         caption: 'User Page',
       },
       {
-        imageUrl: '/images/CropProject/4.Admin1.gif',
+        imageUrl:
+          'https://github.com/JinLee0811/JinLee_Portfolio/blob/main/src/assets/Images/CropProject/4.Admin1.gif?raw=true',
         caption: 'Admin Dashboard Page',
       },
       {
-        imageUrl: '/images/CropProject/5.Admin2.gif',
+        imageUrl:
+          'https://github.com/JinLee0811/JinLee_Portfolio/blob/main/src/assets/Images/CropProject/5.Admin2.gif?raw=true',
         caption: 'Admin Dashboard Page',
       },
       {
-        imageUrl: '/images/CropProject/6.Admin3.gif',
+        imageUrl:
+          'https://github.com/JinLee0811/JinLee_Portfolio/blob/main/src/assets/Images/CropProject/6.Admin3.gif?raw=true',
         caption: 'Admin Dashboard Page',
       },
       {
-        imageUrl: '/images/CropProject/7.Board.gif',
+        imageUrl:
+          'https://github.com/JinLee0811/JinLee_Portfolio/blob/main/src/assets/Images/CropProject/7.Board.gif?raw=true',
         caption: 'Discussion Board Page',
       },
       {
-        imageUrl: '/images/CropProject/8.Board and Comment.gif',
+        imageUrl:
+          'https://github.com/JinLee0811/JinLee_Portfolio/blob/main/src/assets/Images/CropProject/8.Board%20and%20Comment.gif?raw=true',
         caption: 'Likes and Comments Page',
+      },
+      {
+        imageUrl:
+          'https://github.com/JinLee0811/JinLee_Portfolio/blob/main/src/assets/Images/CropProject/9.Likes%20and%20Write.gif?raw=true',
+        caption: 'Upload Page',
       },
     ],
   },
@@ -249,7 +268,8 @@ export const projects: Project[] = [
       'Developed the frontend, implemented various APIs, and handled the design',
       'Applied data analysis and processing techniques to enhance the service',
     ],
-    imageUrl: '/images/ProjectImage/DataProject.png',
+    imageUrl:
+      'https://github.com/user-attachments/assets/8fd84916-4ca3-4025-a6b6-c7fadf03265b',
     githubUrl: 'https://github.com/JinLee0811/Data_Project',
     deployUrl: 'https://example.com',
     date: '2023-03',
@@ -257,24 +277,34 @@ export const projects: Project[] = [
     term: 'March 2023 ~ April 2023',
     screenshots: [
       {
-        imageUrl: '/images/DataProject/info.gif',
+        imageUrl:
+          'https://github.com/JinLee0811/JinLee_Portfolio/blob/main/src/assets/Images/DataProject/info.gif?raw=true',
         caption: 'Info Page',
       },
       {
-        imageUrl: '/images/DataProject/main.gif',
+        imageUrl:
+          'https://github.com/JinLee0811/JinLee_Portfolio/blob/main/src/assets/Images/DataProject/main.gif?raw=true',
         caption: 'Main Page',
       },
       {
-        imageUrl: '/images/DataProject/mypage.gif',
+        imageUrl:
+          'https://github.com/JinLee0811/JinLee_Portfolio/blob/main/src/assets/Images/DataProject/mypage.gif?raw=true',
         caption: 'My Page',
       },
       {
-        imageUrl: '/images/DataProject/Admin.gif',
+        imageUrl:
+          'https://github.com/JinLee0811/JinLee_Portfolio/blob/main/src/assets/Images/DataProject/Admin.gif?raw=true',
         caption: 'Admin Page',
       },
       {
-        imageUrl: '/images/DataProject/search.gif',
+        imageUrl:
+          'https://github.com/JinLee0811/JinLee_Portfolio/blob/main/src/assets/Images/DataProject/search.gif?raw=true',
         caption: 'Search Page',
+      },
+      {
+        imageUrl:
+          'https://github.com/JinLee0811/JinLee_Portfolio/blob/main/src/assets/Images/DataProject/prize.png?raw=true',
+        caption: 'Award',
       },
     ],
   },
@@ -294,7 +324,8 @@ export const projects: Project[] = [
     ],
     category: ['E-Commerce', 'Web Development'],
     contributions: ['Frontend development', 'Backend development'],
-    imageUrl: '/images/ProjectImage/Shoppingmall.png',
+    imageUrl:
+      'https://github.com/user-attachments/assets/3bd5e343-de39-4d0c-9326-f527eef0d6c4',
     githubUrl: 'https://github.com/example',
     deployUrl: 'https://example.com',
     date: '2023-01',
@@ -302,20 +333,9 @@ export const projects: Project[] = [
     term: 'Jan 2023 ~ Feb 2023',
     screenshots: [
       {
-        imageUrl: '/images/Project1/main.gif',
+        imageUrl:
+          'https://github.com/JinLee0811/JinLee_Portfolio/blob/main/src/assets/Images/Project1/cart.gif?raw=true',
         caption: 'Main Page',
-      },
-      {
-        imageUrl: '/images/Project1/product.gif',
-        caption: 'Product Page',
-      },
-      {
-        imageUrl: '/images/Project1/order.gif',
-        caption: 'Order Page',
-      },
-      {
-        imageUrl: '/images/Project1/cart.gif',
-        caption: 'Cart Page',
       },
     ],
   },
@@ -339,7 +359,8 @@ export const projects: Project[] = [
       'Handled overall code development and error fixing',
       'Managed the Git repository and oversaw project deployment',
     ],
-    imageUrl: '/images/ProjectImage/UniApp.png',
+    imageUrl:
+      'https://github.com/user-attachments/assets/b47a7f43-787e-4e8e-9806-009d8a37f2d1',
     githubUrl:
       'https://github.com/JinLee0811/UTS_TeamProject_CLIUniApp-and-GUIUniApp_by_Python',
     deployUrl: 'https://example.com',
@@ -364,7 +385,8 @@ export const projects: Project[] = [
     ],
     category: ['Game Development', 'Python'],
     contributions: ['Game development', 'Python scripting'],
-    imageUrl: '/images/ProjectImage/Pygame.png',
+    imageUrl:
+      'https://github.com/user-attachments/assets/99af349b-5f44-4c01-abf4-47f947e24381',
     githubUrl: 'https://github.com/JinLee0811/python_pygame_pj',
     deployUrl: 'https://example.com',
     date: '2024-04',
@@ -372,7 +394,8 @@ export const projects: Project[] = [
     term: 'April 2024 ~ April 2024',
     screenshots: [
       {
-        imageUrl: '/images/Poketmon/pocketmon.gif',
+        imageUrl:
+          'https://github.com/JinLee0811/JinLee_Portfolio/blob/main/src/assets/Images/Poketmon/pocketmon.gif?raw=true',
         caption: 'Game Screen',
       },
     ],
@@ -397,7 +420,8 @@ export const projects: Project[] = [
       'Design and styling',
       'State management',
     ],
-    imageUrl: '/images/FirstPortfolio/FirstPortfolio.png',
+    imageUrl:
+      'https://github.com/user-attachments/assets/42e5f8d1-6bbb-47a8-a949-154c5467da1a',
     githubUrl: 'https://github.com/JinLee0811/portfolio',
     deployUrl: 'https://jinlee0811.github.io/portfolio/',
     date: '2023-02',
@@ -405,19 +429,23 @@ export const projects: Project[] = [
     term: 'Feb 2023 ~ March 2023',
     screenshots: [
       {
-        imageUrl: '/images/FirstPortfolio/FirstPortfolio.png',
+        imageUrl:
+          'https://github.com/user-attachments/assets/42e5f8d1-6bbb-47a8-a949-154c5467da1a',
         caption: 'Main Screen',
       },
       {
-        imageUrl: '/images/FirstPortfolio/SkillList.png',
+        imageUrl:
+          'https://github.com/user-attachments/assets/e5a42ab8-5cfc-4e28-b65f-7802ccbc00e6',
         caption: 'Skills List Screen',
       },
       {
-        imageUrl: '/images/FirstPortfolio/ProjectList.png',
+        imageUrl:
+          'https://github.com/user-attachments/assets/b9981f2c-a085-4537-853c-363db5a3df3f',
         caption: 'Projects List Screen',
       },
       {
-        imageUrl: '/images/FirstPortfolio/Firstportfolio.detail.png',
+        imageUrl:
+          'https://github.com/user-attachments/assets/9610c14e-f8c6-4992-95a6-54623eb74fa7',
         caption: 'Project Details Screen',
       },
     ],

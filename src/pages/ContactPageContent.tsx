@@ -37,7 +37,7 @@ const ContactPage: React.FC = () => {
           data-aos='fade-up'
           data-aos-delay='600'>
           <img
-            src='/images/Endimage2.jpeg' // 여기에 실제 이미지 경로를 넣으세요
+            src='https://github.com/user-attachments/assets/722d9780-730d-4c11-a56e-71adb28a4d06' // 여기에 실제 이미지 경로를 넣으세요
             alt='Profile'
             className='w-80 h-80 rounded-full object-cover'
           />
