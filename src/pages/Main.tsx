@@ -38,7 +38,7 @@ const Hero: React.FC = () => {
             <div className='flex-shrink max-w-full px-4 sm:px-12 lg:px-30 w-full sm:w-9/12 lg:w-1/2 self-center order-2 sm:order-1 lg:order-1'>
               <div className='w-29.1 h-29.1 overflow-hidden rounded-3xl transition-transform duration-300 ease-in-out transform hover:scale-110'>
                 <img
-                  src='/images/mainProfile.jpeg'
+                  src='./assets/Icons/mainProfile.jpeg'
                   className='w-full h-full object-cover'
                   alt='profile picture'
                 />
