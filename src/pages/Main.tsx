@@ -38,7 +38,7 @@ const Hero: React.FC = () => {
             <div className='flex-shrink max-w-full px-4 sm:px-12 lg:px-30 w-full sm:w-9/12 lg:w-1/2 self-center order-2 sm:order-1 lg:order-1'>
               <div className='w-29.1 h-29.1 overflow-hidden rounded-3xl transition-transform duration-300 ease-in-out transform hover:scale-110'>
                 <img
-                  src='./assets/Icons/mainProfile.jpeg'
+                  src='https://github.com/user-attachments/assets/d859ec3f-18cf-4d42-9ce5-d6736828e6d7'
                   className='w-full h-full object-cover'
                   alt='profile picture'
                 />
@@ -66,42 +66,42 @@ const Hero: React.FC = () => {
                   <div className='mt-4 grid grid-cols-6 md:grid-cols-6 gap-3'>
                     <div className='col-span-1 flex justify-center'>
                       <img
-                        src='/images/tsjs.jpg'
+                        src='https://github.com/user-attachments/assets/af275b2e-80f9-4217-ae18-e9182fe11de8'
                         alt='JavaScript'
                         className='w-10 h-10 object-cover transform transition-transform duration-300 ease-in-out hover:scale-110'
                       />
                     </div>
                     <div className='col-span-1 flex justify-center'>
                       <img
-                        src='/images/Python.jpg'
+                        src='https://github.com/user-attachments/assets/2f861ed4-d44f-4d89-90cf-387161fdc6e8'
                         alt='Python'
                         className='w-10 h-10 object-cover transform transition-transform duration-300 ease-in-out hover:scale-110'
                       />
                     </div>
                     <div className='col-span-1 flex justify-center'>
                       <img
-                        src='/images/React.png'
+                        src='https://github.com/user-attachments/assets/58504914-3ef8-4693-9d78-6e4a2700800d'
                         alt='React'
                         className='w-10 h-10 object-cover transform transition-transform duration-300 ease-in-out hover:scale-110'
                       />
                     </div>
                     <div className='col-span-1 flex justify-center'>
                       <img
-                        src='/images/Node.js.png'
+                        src='https://github.com/user-attachments/assets/1a76a7fe-2455-450f-bbe9-12e8f595f62a'
                         alt='Node.js'
                         className='w-10 h-10 object-cover transform transition-transform duration-300 ease-in-out hover:scale-110'
                       />
                     </div>
                     <div className='col-span-1 flex justify-center'>
                       <img
-                        src='/images/Next.js.png'
+                        src='https://github.com/user-attachments/assets/4b9fa211-829e-4aa7-9f7b-f76bb4f45ca2'
                         alt='Next.js'
                         className='w-10 h-10 object-cover transform transition-transform duration-300 ease-in-out hover:scale-110'
                       />
                     </div>
                     <div className='col-span-1 flex justify-center'>
                       <img
-                        src='/images/Tailwind CSS.png'
+                        src='https://github.com/user-attachments/assets/9aae6f94-5fb3-41ee-83a4-d25797dbf745'
                         alt='Tailwind.css'
                         className='w-10 h-10 object-cover transform transition-transform duration-300 ease-in-out hover:scale-110'
                       />
