@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Project } from '../data/projects';
 
 interface CardProps {
@@ -8,16 +8,30 @@ interface CardProps {
 }
 
 const Card: React.FC<CardProps> = ({ project, onOpenModal }) => {
+  const [imageLoaded, setImageLoaded] = useState(false);
+
+  const handleImageLoad = () => {
+    setImageLoaded(true);
+  };
+
   return (
     <div
-      className='bg-lightGray rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer h-full flex flex-col relative' // relative 추가
+      className='bg-lightGray rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer h-full flex flex-col relative'
       onClick={() => onOpenModal(project)}>
-      <img
-        src={project.imageUrl}
-        alt={project.name}
-        className='w-full h-48 object-cover'
-        style={{ objectPosition: 'top left' }}
-      />
+      <div className='relative w-full h-48'>
+        {!imageLoaded && (
+          <div className='absolute inset-0 bg-gray-300 animate-pulse'></div>
+        )}
+        <img
+          src={project.imageUrl}
+          alt={project.name}
+          className={`w-full h-48 object-cover ${
+            imageLoaded ? 'block' : 'hidden'
+          }`}
+          style={{ objectPosition: 'top left' }}
+          onLoad={handleImageLoad}
+        />
+      </div>
 
       <div className='p-4 bg-lightGray flex flex-col justify-between flex-grow'>
         <div>

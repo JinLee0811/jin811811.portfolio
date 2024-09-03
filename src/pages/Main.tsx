@@ -4,9 +4,7 @@ import { FaLinkedin, FaGithub, FaFileAlt } from 'react-icons/fa';
 
 const Hero: React.FC = () => {
   const typedRef = useRef<HTMLSpanElement>(null);
-  const [loading, setLoading] = useState(true);
-  const [imagesLoaded, setImagesLoaded] = useState(0);
-  const totalImages = 6; // 총 로드할 이미지의 수
+  const [imageLoaded, setImageLoaded] = useState(false);
 
   useEffect(() => {
     const options = {
@@ -29,16 +27,6 @@ const Hero: React.FC = () => {
     }
   }, []);
 
-  const handleImageLoad = () => {
-    setImagesLoaded((prev) => prev + 1);
-  };
-
-  useEffect(() => {
-    if (imagesLoaded === totalImages) {
-      setLoading(false);
-    }
-  }, [imagesLoaded]);
-
   return (
     <main id='main' className='mt-30 mb-15'>
       {/* Hero Section */}
@@ -49,12 +37,17 @@ const Hero: React.FC = () => {
           <div className='flex flex-wrap flex-row -mx-4 justify-center'>
             {/* Image Section */}
             <div className='flex-shrink max-w-full px-4 sm:p-12 w-full sm:w-9/12 lg:w-1/2 self-start'>
-              <div className='overflow-hidden rounded-3xl transition-transform duration-300 ease-in-out transform hover:scale-110 h-64 md:h-80 lg:h-96'>
+              <div className='relative overflow-hidden rounded-3xl h-64 md:h-80 lg:h-96'>
+                {!imageLoaded && (
+                  <div className='absolute inset-0 bg-gray-300 animate-pulse'></div>
+                )}
                 <img
                   src='https://github.com/user-attachments/assets/d859ec3f-18cf-4d42-9ce5-d6736828e6d7'
-                  className='w-full h-full object-cover'
+                  className={`w-full h-full object-cover transition-opacity duration-300 ${
+                    imageLoaded ? 'opacity-100' : 'opacity-0'
+                  }`}
                   alt='profile picture'
-                  onLoad={handleImageLoad}
+                  onLoad={() => setImageLoaded(true)}
                 />
               </div>
             </div>
@@ -83,7 +76,6 @@ const Hero: React.FC = () => {
                         src='https://github.com/user-attachments/assets/af275b2e-80f9-4217-ae18-e9182fe11de8'
                         alt='JavaScript'
                         className='w-10 h-10 object-cover transform transition-transform duration-300 ease-in-out hover:scale-110'
-                        onLoad={handleImageLoad}
                       />
                     </div>
                     <div className='col-span-1 flex justify-center'>
@@ -91,7 +83,6 @@ const Hero: React.FC = () => {
                         src='https://github.com/user-attachments/assets/2f861ed4-d44f-4d89-90cf-387161fdc6e8'
                         alt='Python'
                         className='w-10 h-10 object-cover transform transition-transform duration-300 ease-in-out hover:scale-110'
-                        onLoad={handleImageLoad}
                       />
                     </div>
                     <div className='col-span-1 flex justify-center'>
@@ -99,7 +90,6 @@ const Hero: React.FC = () => {
                         src='https://github.com/user-attachments/assets/58504914-3ef8-4693-9d78-6e4a2700800d'
                         alt='React'
                         className='w-10 h-10 object-cover transform transition-transform duration-300 ease-in-out hover:scale-110'
-                        onLoad={handleImageLoad}
                       />
                     </div>
                     <div className='col-span-1 flex justify-center'>
@@ -107,7 +97,6 @@ const Hero: React.FC = () => {
                         src='https://github.com/user-attachments/assets/1a76a7fe-2455-450f-bbe9-12e8f595f62a'
                         alt='Node.js'
                         className='w-10 h-10 object-cover transform transition-transform duration-300 ease-in-out hover:scale-110'
-                        onLoad={handleImageLoad}
                       />
                     </div>
                     <div className='col-span-1 flex justify-center'>
@@ -115,7 +104,6 @@ const Hero: React.FC = () => {
                         src='https://github.com/user-attachments/assets/4b9fa211-829e-4aa7-9f7b-f76bb4f45ca2'
                         alt='Next.js'
                         className='w-10 h-10 object-cover transform transition-transform duration-300 ease-in-out hover:scale-110'
-                        onLoad={handleImageLoad}
                       />
                     </div>
                     <div className='col-span-1 flex justify-center'>
@@ -123,7 +111,6 @@ const Hero: React.FC = () => {
                         src='https://github.com/user-attachments/assets/9aae6f94-5fb3-41ee-83a4-d25797dbf745'
                         alt='Tailwind.css'
                         className='w-10 h-10 object-cover transform transition-transform duration-300 ease-in-out hover:scale-110'
-                        onLoad={handleImageLoad}
                       />
                     </div>
                   </div>

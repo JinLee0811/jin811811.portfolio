@@ -19,6 +19,8 @@ const ImageModal: React.FC<ImageModalProps> = ({
   caption,
   onClose,
 }) => {
+  const [imageLoaded, setImageLoaded] = useState(false);
+
   return (
     <div
       className='fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center p-4 z-50'
@@ -44,10 +46,16 @@ const ImageModal: React.FC<ImageModalProps> = ({
             &times;
           </span>
         </button>
+        {!imageLoaded && (
+          <div className='w-[300px] h-[200px] bg-gray-300 animate-pulse rounded'></div>
+        )}
         <img
           src={imageUrl}
           alt={caption}
-          className='max-w-[80vw] max-h-[80vh] rounded'
+          className={`max-w-[80vw] max-h-[80vh] rounded ${
+            imageLoaded ? 'block' : 'hidden'
+          }`}
+          onLoad={() => setImageLoaded(true)}
         />
         <p className='text-white text-center mt-4 font-bold'>{caption}</p>
       </div>
@@ -58,6 +66,9 @@ const ImageModal: React.FC<ImageModalProps> = ({
 const Modal: React.FC<ModalProps> = ({ project, onClose }) => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
   const [selectedCaption, setSelectedCaption] = useState<string | null>(null);
+  const [imageLoadedStates, setImageLoadedStates] = useState<boolean[]>(
+    Array(project.screenshots?.length || 0).fill(false)
+  );
 
   const handleOverlayClick = (e: React.MouseEvent<HTMLDivElement>) => {
     if (e.target === e.currentTarget) {
@@ -73,6 +84,12 @@ const Modal: React.FC<ModalProps> = ({ project, onClose }) => {
   const closeImageModal = () => {
     setSelectedImage(null);
     setSelectedCaption(null);
+  };
+
+  const handleImageLoad = (index: number) => {
+    const newStates = [...imageLoadedStates];
+    newStates[index] = true;
+    setImageLoadedStates(newStates);
   };
 
   const screenshots = project.screenshots || [];
@@ -158,37 +175,6 @@ const Modal: React.FC<ModalProps> = ({ project, onClose }) => {
 
         {/* Main Content Section */}
         <div className='bg-white p-10 xl:px-24 lg:px-24 w-full max-w-full'>
-          <div className='mb-6'>
-            {/* Pages Section */}
-            <h3 className='text-3xl font-bold mb-4'>💻 Pages</h3>
-            <p className='text-gray-500 mb-4'>
-              Click on the images to enlarge them.
-            </p>
-            <div
-              className={`grid  ${
-                screenshots.length === 1 ? 'grid-cols-1' : 'grid-cols-3'
-              } gap-4`}>
-              {screenshots.map((screenshot, index) => (
-                <div
-                  key={index}
-                  className='text-center cursor-pointer'
-                  onClick={() =>
-                    openImageModal(screenshot.imageUrl, screenshot.caption)
-                  }>
-                  <img
-                    src={screenshot.imageUrl}
-                    alt={screenshot.caption}
-                    className={`w-full h-auto rounded ${
-                      screenshots.length === 1 ? 'lg:max-w-[100%] mx-auto' : ''
-                    }`}
-                  />
-                  <p className='text-gray-500 mt-2 text-sm'>
-                    {screenshot.caption}
-                  </p>
-                </div>
-              ))}
-            </div>
-          </div>
           <div className='space-y-6 pr-0 pl-0 pt-5 pb-10'>
             <h3 className='font-semibold text-xl'>👨‍💻 Summary</h3>
             <div className='relative bg-superLightGray bg-center p-8 rounded-lg '>
@@ -243,6 +229,41 @@ const Modal: React.FC<ModalProps> = ({ project, onClose }) => {
               </div>
             )}
           </div>
+
+          {/* Pages Section - Conditionally Rendered */}
+          {screenshots.length > 0 && (
+            <div className='mb-6'>
+              <h3 className='text-3xl font-bold mb-4'>💻 Pages</h3>
+              <p className='text-gray-500 mb-4'>
+                Click on the images to enlarge them.
+              </p>
+              <div className={`grid grid-cols-1 md:grid-cols-3 gap-4`}>
+                {screenshots.map((screenshot, index) => (
+                  <div
+                    key={index}
+                    className='text-center cursor-pointer'
+                    onClick={() =>
+                      openImageModal(screenshot.imageUrl, screenshot.caption)
+                    }>
+                    {!imageLoadedStates[index] && (
+                      <div className='w-full h-44 bg-gray-300 animate-pulse rounded mx-auto'></div>
+                    )}
+                    <img
+                      src={screenshot.imageUrl}
+                      alt={screenshot.caption}
+                      className={`w-full h-auto rounded ${
+                        imageLoadedStates[index] ? 'block' : 'hidden'
+                      }`}
+                      onLoad={() => handleImageLoad(index)}
+                    />
+                    <p className='text-gray-500 mt-2 text-sm'>
+                      {screenshot.caption}
+                    </p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
         </div>
       </div>
 

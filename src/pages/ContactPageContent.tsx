@@ -1,8 +1,10 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 const ContactPage: React.FC = () => {
+  const [imageLoaded, setImageLoaded] = useState(false);
+
   useEffect(() => {
     AOS.init({
       duration: 1000, // 애니메이션 지속 시간
@@ -36,10 +38,16 @@ const ContactPage: React.FC = () => {
           className='flex justify-center mb-4'
           data-aos='fade-up'
           data-aos-delay='600'>
+          {!imageLoaded && (
+            <div className='w-80 h-80 bg-gray-300 animate-pulse rounded-full'></div>
+          )}
           <img
-            src='https://github.com/user-attachments/assets/722d9780-730d-4c11-a56e-71adb28a4d06' // 여기에 실제 이미지 경로를 넣으세요
+            src='https://github.com/user-attachments/assets/722d9780-730d-4c11-a56e-71adb28a4d06'
             alt='Profile'
-            className='w-80 h-80 rounded-full object-cover'
+            className={`w-80 h-80 rounded-full object-cover ${
+              imageLoaded ? 'block' : 'hidden'
+            }`}
+            onLoad={() => setImageLoaded(true)}
           />
         </div>
       </div>
@@ -57,7 +65,7 @@ const ContactPage: React.FC = () => {
           target='_blank'
           rel='noopener noreferrer'
           className='text-lg font-medium text-gray-800 hover:text-gray-600'>
-          Linked In
+          LinkedIn
         </a>
       </div>
       <footer className='text-black text-center mt-auto pb-5 bg-superLightGray'>
