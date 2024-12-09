@@ -35,7 +35,7 @@ Throughout the project, I encountered and overcame several challenges:
 
 ## 🚀 Deployment
 
-The portfolio is live and accessible at [your-portfolio-url.com](https://your-portfolio-url.com). It was deployed using Vercel, allowing for continuous integration and smooth updates.
+The portfolio is live and accessible at [https://jin-lee-portfolio.vercel.app/](https://jin-lee-portfolio.vercel.app/). It was deployed using Vercel, allowing for continuous integration and smooth updates.
 
 ## 🎯 Final Thoughts
 
