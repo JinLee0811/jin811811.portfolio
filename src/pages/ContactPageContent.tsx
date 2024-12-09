@@ -22,15 +22,15 @@ const ContactPage: React.FC = () => {
           className='text-2xl text-gray-800 mt-4'
           data-aos='fade-up'
           data-aos-delay='200'>
-          봐주셔서 감사합니다 :)
+          Thank you for visiting! :)
         </p>
         <p
           className='text-lg text-gray-800 mt-2 mb-8 max-w-2xl mx-auto'
           data-aos='fade-up'
           data-aos-delay='400'>
-          프론트엔드 개발자로 성장하기 위해 낮선 기술에도 적극적으로 도전하고,
-          항상 사용자의 관점에서 생각하며 사용하기 좋은 서비스를 만들고
-          싶습니다.
+          I actively challenge myself with unfamiliar technologies to grow as a
+          frontend developer. I always think from the user's perspective and aim
+          to create services that are easy and enjoyable to use.
         </p>
 
         {/* 프로필 이미지 추가 */}
