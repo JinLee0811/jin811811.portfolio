@@ -18,7 +18,7 @@ export const skills = [
     type: "Backend",
   },
   {
-    title: "React.js",
+    title: "React",
     description: "This is a wider card with supporting text below as a natural content.",
     icon: "https://github.com/user-attachments/assets/58504914-3ef8-4693-9d78-6e4a2700800d",
     type: "Frontend",
@@ -29,29 +29,60 @@ export const skills = [
     icon: "https://github.com/user-attachments/assets/4b9fa211-829e-4aa7-9f7b-f76bb4f45ca2",
     type: "Frontend",
   },
-  {
-    title: "Node.js",
-    description: "This is a wider card with supporting text below as a natural content.",
-    icon: "https://github.com/user-attachments/assets/1a76a7fe-2455-450f-bbe9-12e8f595f62a",
-    type: "Backend",
-  },
+
   {
     title: "React Query",
     description: "데이터 페칭, 캐싱, 비동기 상태 관리",
-    icon: "https://github.com/user-attachments/assets/react-query-icon.png",
+    icon: "https://miro.medium.com/v2/resize:fit:380/1*4g9gB2zUU9x1bZTOJXtZWA.png",
     type: "Frontend",
   },
   {
     title: "Recoil",
     description: "간단하고 가벼운 상태 관리, 비동기 상태 처리",
-    icon: "https://github.com/user-attachments/assets/recoil-icon.png",
+    icon: "https://recoiljs.org/img/favicon.png",
     type: "Frontend",
   },
   {
     title: "Redux Toolkit",
     description: "대규모 상태 관리, 비동기 작업 처리, 보일러플레이트 감소",
-    icon: "https://github.com/user-attachments/assets/redux-toolkit-icon.png",
+    icon: "https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png",
     type: "Frontend",
+  },
+  {
+    title: "Node.js",
+    description: "JavaScript 런타임 환경, 확장 가능한 서버 구축 가능",
+    icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg",
+    type: "Backend",
+  },
+  {
+    title: "Express.js",
+    description: "Node.js 기반 백엔드 프레임워크, RESTful API 설계 지원",
+    icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg",
+    type: "Backend",
+  },
+  {
+    title: "MongoDB",
+    description: "NoSQL 데이터베이스, JSON 문서 기반 데이터 저장",
+    icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
+    type: "Backend",
+  },
+  {
+    title: "PostgreSQL",
+    description: "관계형 데이터베이스, SQL 기반 데이터 관리",
+    icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg",
+    type: "Backend",
+  },
+  {
+    title: "RESTful API",
+    description: "클라이언트와 서버 간 명확한 데이터 교환 방식",
+    icon: "https://miro.medium.com/v2/resize:fit:1200/1*J3G3akaMpUOLegw0p0qthA.png",
+    type: "Backend",
+  },
+  {
+    title: "CI/CD",
+    description: "지속적인 통합과 배포, 개발 프로세스 자동화",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+    type: "Backend",
   },
   {
     title: "Tailwind CSS",

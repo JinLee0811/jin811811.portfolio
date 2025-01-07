@@ -25,9 +25,9 @@ const ContactPage: React.FC = () => {
           className="text-lg text-gray-800 mt-2 mb-8 max-w-2xl mx-auto"
           data-aos="fade-up"
           data-aos-delay="400">
-          I actively challenge myself with unfamiliar technologies to grow as a frontend developer.
-          I always think from the user`s perspective and aim to create services that are easy and
-          enjoyable to use.
+          I actively challenge myself with unfamiliar technologies to grow as a developer. I always
+          think from the user's perspective and aim to create services that are easy and enjoyable
+          to use.
         </p>
 
         {/* 프로필 이미지 추가 */}
